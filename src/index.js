@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import MuseInterface from './containers/MuseInterface';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <MuseInterface />,
+  document.getElementById('root')
+);
 registerServiceWorker();

@@ -1,0 +1,16 @@
+.electrode-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+canvas {
+  background: rgb(151, 151, 151);
+  border: solid black 1px;
+  width: 100%;
+  height: 150px;
+}
+
+body {
+  background-color: rgb(151, 151, 151);
+}
